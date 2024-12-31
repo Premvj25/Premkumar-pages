@@ -1,0 +1,9 @@
+@keyframes gradientAnimation {
+    0% { background-color: #1a1a1a; }
+    50% { background-color: #333; }
+    100% { background-color: #1a1a1a; }
+}
+
+body {
+    animation: gradientAnimation 10s ease-in-out infinite;
+}
